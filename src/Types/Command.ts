@@ -34,4 +34,4 @@ interface ICommandConfig {
     casino?: boolean
 }
 
-export type TCategory = 'dev' | 'general' | 'weeb' | 'utils' | 'fun' | 'moderation' | 'media' | 'category' | 'nsfw' | 'economy'
+export type TCategory = 'dev' | 'general' | 'weeb' | 'games' | 'utils' | 'fun' | 'moderation' | 'media' | 'category' | 'nsfw' | 'economy'
