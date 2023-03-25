@@ -1304,7 +1304,7 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
     
-    anime-quiz@^3.0.0:
+    "anime-quiz@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/anime-quiz/-/anime-quiz-3.0.0.tgz#4a1c5dcb091498d6d3e74b78d4cf06ef5df677bf"
   integrity sha512-ANQXM0tZIw+DeOYjp0yv34eQ+5LmMeAaNCR42Lq1yJc1wofzWPTNePSvee4sSQ6w8QAdawc170jEsQXh0plPiA==
