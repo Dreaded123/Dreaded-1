@@ -5,6 +5,7 @@ import { Message, Client, BaseCommand } from '../Structures'
 import { getStats } from '../lib'
 import { ICommand, IArgs } from '../Types'
 import axios from 'axios'
+import { IQuiz } from 'anime-quiz'
 
 export class MessageHandler {
     constructor(private client: Client) {}
@@ -176,4 +177,11 @@ export class MessageHandler {
     private cooldowns = new Map<string, number>()
 
     private path = [__dirname, '..', 'Commands']
+    
+     public quiz = {
+        quizResponse: new Map<string, IQuiz>(),
+        failed: new Map<string, string[]>(),
+        creator: new Map<string, string>()
+    }
+}
 }
