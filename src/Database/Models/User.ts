@@ -24,6 +24,10 @@ export class UserSchema {
     public bank!: number
     
     @prop({ type: Number, required: true, default: 0 })
+    public quizWins!: number
+
+    
+    @prop({ type: Number, required: true, default: 0 })
     public lastDaily!: number
 
     @prop({ type: Number, required: true, default: 0 })
