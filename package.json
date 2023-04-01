@@ -32,7 +32,6 @@
     "@shineiichijo/marika": "^2.0.6",
     "@shineiichijo/nhentai-ts": "^1.0.0",
     "@typegoose/typegoose": "^10.0.0",
-     "anime-quiz": "^3.0.0",
     "axios": "^0.27.2",
     "canvacord": "^5.4.8",
     "chalk": "4.1.1",
